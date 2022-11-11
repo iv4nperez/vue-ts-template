@@ -1,0 +1,17 @@
+
+.c__notification__container{
+    @apply bg-white rounded-md shadow-utility w-fit table p-3 absolute right-7 bottom-7;
+}
+
+.c__notification__content{
+    @apply w-80 p-3 pr-6 relative;
+}
+
+
+.c__notification__title{
+    @apply text-base font-googleSans font-bold text-[#444] leading-[22px];
+}
+
+.c__notification__content__description{
+    @apply text-[#444] text-sm font-publicSans;
+}

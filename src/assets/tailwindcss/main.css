@@ -1,4 +1,6 @@
 @import './fonts.css';
+@import './core/CNotification.css';
+
 
 @tailwind base;
 @tailwind components;

@@ -1,7 +1,7 @@
 import { RouteRecordRaw, createRouter, createWebHistory } from 'vue-router'
 
 //screen
-import HomeScreen from '../screens/HomeScreen.vue'
+import HomeScreen from '../modules/dashboard/screen/DashboardScreen.vue'
 import AboutScreen from '../screens/AboutScreen.vue'
 import LoginScreen from '../screens/LoginScreen.vue'
 
