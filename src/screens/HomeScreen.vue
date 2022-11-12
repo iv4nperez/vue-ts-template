@@ -16,6 +16,6 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import CNotification from "../components/core/CNotification.vue";
+import CNotification from "../components/core/UNotification/UNotification.vue";
 const showNotification = ref(false)
 </script>

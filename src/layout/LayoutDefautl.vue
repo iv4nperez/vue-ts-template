@@ -1,6 +1,6 @@
 <template>
     <div class="flex">
-        <sidebar class="sticky top-0 overflow-hidden h-screen shrink-0 z-20 shadow-5 bg-[#111827] w-[280px]">
+        <sidebar id="menu" class="sticky top-0 overflow-hidden h-screen shrink-0 z-20 shadow-5 bg-[#111827] w-[280px]">
             <div className="w-full h-[70px]  flex items-center px-5 justify-between">
                 <figure>
                     <img src="https://react-material.fusetheme.com/assets/images/logo/logo.svg" alt="" />
@@ -27,7 +27,7 @@
                 <ul className="px-3">
                     <div className="px-4 mt-7 py-3">
                         <span className="text-xs uppercase text-[#ffffff] font-bold font-inter ">Dashboards</span>
-                        <p className="text-[11px] text-[#b8babf] font-medium">Unique dashboard designs</p>
+                        <p className="text-[11px] text-[#b8babf] font-medium font-inter">Unique dashboard designs</p>
                     </div>
 
                     <li className="w-full py-3 px-4 rounded-md hover:bg-white hover:bg-opacity-[0.1] mb-1 leading-5 cursor-pointer transition-all ease-in-out group">

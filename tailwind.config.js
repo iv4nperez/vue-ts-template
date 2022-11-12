@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         googleSans: ["google-sans"],
         publicSans: ["Public Sans"],
+        inter: ['Inter']
       },
       colors:{
         'blue-primary': '#1a73e8'

@@ -25,7 +25,7 @@
 <script setup lang="ts">
 
 import { computed } from 'vue';
-import CloseIcon from '../../assets/icons/CloseIcon.vue'
+import CloseIcon from '../../../assets/icons/CloseIcon.vue'
 const emit = defineEmits(['update:modelValue'])
 
 const props = defineProps({

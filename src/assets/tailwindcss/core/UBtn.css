@@ -1,0 +1,21 @@
+.btn__base {
+   @apply  px-4 rounded-[4px] h-9 font-googleSans font-medium
+}
+
+
+.primary{
+    @apply bg-blue-primary text-white hover:shadow-blue-300 hover:opacity-95 hover:shadow-md
+}
+
+.text {
+    @apply bg-transparent text-[#5f6368] hover:bg-gray-200 transition-colors ease-in-out font-medium
+}
+
+.danger {
+    @apply bg-red-500 text-white hover:shadow-red-300 hover:opacity-95 hover:shadow-md
+}
+
+
+.warning {
+    @apply bg-orange-500 text-white hover:shadow-orange-300 hover:opacity-95 hover:shadow-md
+}
